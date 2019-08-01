@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-Korea"
@@ -113,7 +113,7 @@ author:
   location         : "서울"
   email            :
   links:
-    - label: "Email"
+    - label: "cc6656@naver.com"
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:cc6656@naver.com
     - label: "Website"
