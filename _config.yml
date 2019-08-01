@@ -115,7 +115,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: cc6656@naver.com
+      url: "cc6656@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
 #       url: "https://your-website.com"
