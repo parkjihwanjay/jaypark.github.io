@@ -18,5 +18,5 @@ EC2는 Elastic Compute Cloud로 안전하고 크기 조정이 가능한 컴퓨�
 
 AWS 홈페이지에 들어가 서비스 메뉴의 EC2를 클릭합니다.
 
-
+![EC2 홈페이지](C:\Users\cc665\OneDrive\바탕 화면\2019년 여름방학\github io 사진\1. EC2 서버 배포\EC2 홈페이지.png)
 
