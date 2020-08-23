@@ -1,7 +1,7 @@
 ---
 title: "안녕, Passport"
-tags : [Node.js, Passport]
-author : 박지환
+tags: [Node.js, Passport]
+author: 박지환
 ---
 
 안녕하세요. 우아한 테크 캠프 3기에 참여하고 있는 박지환입니다.
@@ -10,7 +10,7 @@ author : 박지환
 
 어떤 주제로 글을 써야 고민을 많이하고 글을 쓰다 지우고 했는데요 (지금이 4번째입니다 ㅎㅎ..) 결국 제가 이번 프로젝트와 관련해서 개발 관련 글을 써보려고 합니다.
 
-## 안녕 :cry:, Passport
+# 안녕 :cry:, Passport
 
 이번 글에서는 Passport에 대해 얘기해보려고 해요.
 
@@ -20,7 +20,7 @@ author : 박지환
 
 그럼 제가 어떤 고민을 했는지 알아볼까요?
 
-### Passport?
+## Passport?
 
 먼저, [Passport](http://www.passportjs.org/)는 Node.js의 인증 관련 미들웨어 입니다.
 
@@ -90,7 +90,7 @@ serializeUser가 하는 일은 user 정보를 받고 해당 user 정보를 sessi
 
 passport는 기본적으로 세션을 위해 express-session을 사용하고 있기 때문에 user id에 해당하는 sessionId를 생성하고 cookie로 클라이언트에게 내려줍니다. (express-session이 cookie를 사용)
 
-#### 정리하면 로그인에 성공할시 serializeUser 함수가 user 정보를 session에 저장하고 cookie를 보낸다!
+## 정리하면 로그인에 성공할시 serializeUser 함수가 user 정보를 session에 저장하고 cookie를 보낸다!
 
 ```js
 passport.deserializeUser(function (id, done) {
@@ -141,7 +141,7 @@ express-session이 파싱해준 결과인데 passport 객체 안에 user id가 �
 
 deserializeUser가 찾아서 넘겨준 req.user로 유저 정보가 잘 담겨있습니다.
 
-### 고민거리?
+## 고민거리?
 
 지금까지 passport에 대해 알아봤는데요 자세한 내용은 공식 문서를 확인하시면 될 것 같습니다.
 
@@ -191,7 +191,7 @@ deserializeUser가 찾아서 넘겨준 req.user로 유저 정보가 잘 담겨�
 
    - OAuth 로그인을 구현하기 위해서 passport와 passport-oauth를 설치해야되는데 OAuth 로그인만 하는데 이는 필요 이상이라고 느꼈습니다.
 
-### 결론
+## 결론
 
 사실 위의 고민은 크게 중요하지는 않죠. 이미 passport로 OAuth 로그인을 구현해놓은 상태였고 계속 진행을 해도 프로젝트를 진행하는데는 아무 문제가 없었을 거에요.
 
@@ -222,7 +222,7 @@ Passport를 사용할 때는 verify callback의 두번째 인자의 serializeUse
 
 또한, 인증창을 Front에서 띄워주니 React에서 로그인 관련 로직을 처리하기 더 수월했습니다.
 
-### 느낀점
+## 느낀점
 
 감사하게도 팀원들이 동의해주셔서 라이브러리 없이 직접 OAuth를 구현해보았는데요 이것이 좋은 결정이든 아니든 이런 고민과 과정이 이번 우아한 테크 캠프에서 얻은 것이 아닌가 싶습니다.
 
